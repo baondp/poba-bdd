@@ -1,7 +1,8 @@
 
-Feature:
-  The first my BDD script
+Feature: Login to the site
 
-  Scenario:
-    Give abc
-        then xyz
+  Scenario: User login to the site
+    Given that a customer access to the site
+        Then user input the username
+        And user input the password
+        Then user click the login button
