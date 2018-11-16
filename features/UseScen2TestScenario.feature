@@ -8,5 +8,4 @@ Feature:
 
     #Comment:
       | example question |
-      | What is it \| that ? |
       | What is your first bet's name? |
