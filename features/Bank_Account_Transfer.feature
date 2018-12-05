@@ -6,3 +6,11 @@ Feature:Bank Account Transfer
     And the balance shows 100,000 USD
     When I transfer 20,000 USD to my savings account
     Then the new balance should be 80,000 GBR
+    
+    Scenario: Balance Transfer Scenario
+    Given I have logged into my bank account
+    And the balance shows 100,000 USD
+    When I transfer 20,000 USD to my savings account
+    Then the new balance should be 80,000 GBR
+    
+    
