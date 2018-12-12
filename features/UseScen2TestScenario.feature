@@ -5,6 +5,7 @@ Feature:
         Given Having agile.qasymphony.com jira
         Then Use qTest Scenario project
         Then Config the Sceanario addon Staging
+        Then Test for training
 
     #Comment:
       | example question |
